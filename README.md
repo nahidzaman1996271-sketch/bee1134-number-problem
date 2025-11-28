@@ -1,1 +1,18 @@
-# bee1134-number-problem
+# bee1134-number-problem[main.c](https://github.com/user-attachments/files/23829133/main.c)
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+int n,a=0,g=0,d=0;
+while(1){
+    scanf("%d",&n);
+    if(n==1)a++;
+    else if (n==2)g++;
+    else if (n==3)d++;
+else if (n==4)break;
+}
+printf("MUITO OBRIGADO\n");
+printf("Alcool:%d\n",a);
+printf("Gasolina:%d\n",g);
+printf("Diesel:%d\n",d);
+return 0;
+}
